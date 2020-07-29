@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package app;
+
+service AppController {
+  rpc getHello (InputParam) returns (StringMessage);
+}
+
+message InputParam {
+  string id = 1;
+}
+
+message StringMessage {
+  string msg = 1;
+}
