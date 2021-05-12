@@ -23,7 +23,7 @@
   "dependencies": {
     "@grpc/proto-loader": "^0.5.1",
     "@nestjs/microservices": "7.3.2",
-    "grpc": "^1.23.3",
+    "grpc": "^1.24.9",
     "redis": "^2.8.0",
     "rimraf": "^2.6.2",
     "@nestjs/common": "^7.0.11",
